@@ -28,22 +28,28 @@
 			<version>5.10.0</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>com.pruebaArch2</groupId>
+  			<artifactId>prueba2-maven-plugin</artifactId>
+  			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
 
 	</dependencies>
 
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>pruebaArch2</groupId>
+				<groupId>com.pruebaArch2</groupId>
   				<artifactId>prueba2-maven-plugin</artifactId>
   				<version>0.0.1-SNAPSHOT</version>
 				<executions>
 					<execution>
 						<goals>
-							<goal>TSDetect-HTML</goal>
-						</goals>
+                        	<goal>TSDectect-HTML</goal>
+                   		</goals>
 						<configuration>
-							<path>prueba.csv</path>
+							<path>D:\NACHO\ESTUDIOS\MASTER\1RD\PROFUNDICACION-SOFTWARE\PRUEBASPLUGIN\testfiles.csv</path>
 						</configuration>
 					</execution>
 				</executions>
