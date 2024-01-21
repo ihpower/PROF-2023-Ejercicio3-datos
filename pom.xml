@@ -49,7 +49,7 @@
                         	<goal>TSDectect-HTML</goal>
                    		</goals>
 						<configuration>
-							<path>D:\NACHO\ESTUDIOS\MASTER\1RD\PROFUNDICACION-SOFTWARE\PRUEBASPLUGIN\testfiles.csv</path>
+							<path>testfiles.csv</path>
 						</configuration>
 					</execution>
 				</executions>
